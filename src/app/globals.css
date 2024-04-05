@@ -5,3 +5,7 @@
 .bg-primary-web {
   background: #2563eb;
 }
+
+.bg-gradient-web {
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+}

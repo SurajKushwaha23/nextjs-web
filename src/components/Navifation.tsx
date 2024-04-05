@@ -35,10 +35,10 @@ const NavigationMenu = () => {
   };
   return (
     <>
-      <header className="relative w-full border-b bg-primary-web">
+      <header className="relative w-full border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
           <div className="inline-flex items-center space-x-2">
-            <div className="mb-2 flex text-3xl text-white font-extrabold justify-center">
+            <div className="mb-2 flex text-3xl text-rose-700 font-extrabold justify-center">
               <Link href="/">Anya</Link>
             </div>
           </div>
@@ -48,7 +48,7 @@ const NavigationMenu = () => {
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className="px-2 py-2 text-md font-medium text-white hover:text-white/80"
+                    className="px-2 py-2 text-md font-medium text-gray-700 hover:text-black/80"
                   >
                     {item.name}
                   </a>
@@ -59,13 +59,13 @@ const NavigationMenu = () => {
           <div className="hidden lg:block">
             <Link
               href="/register"
-              className=" px-3 py-2 text-md font-medium text-white hover:text-white/80"
+              className=" px-3 py-2 text-md font-medium text-gray-700 hover:text-gray-900"
             >
               Get Started Today
             </Link>
             <Link
               href="/login"
-              className="px-3 py-2 text-md font-medium text-white hover:text-white/80"
+              className="px-3 py-2 text-md font-medium text-gray-700 hover:text-gray-900"
             >
               Login In
             </Link>
